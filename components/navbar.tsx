@@ -1,8 +1,8 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
 import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 import { navItems } from "@/lib/data";
 import { Magnetic } from "@/components/react-bits/magnetic";
 
@@ -37,24 +37,26 @@ export function Navbar() {
             </a>
           ))}
         </div>
-        <Magnetic>
-          <a
-            href="https://github.com/yusuf140298"
-            className="inline-flex h-10 items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 text-xs uppercase tracking-[0.16em] text-white/82 transition-colors hover:border-acid/70 hover:text-acid"
-          >
-            <AiFillGithub size={18} />
-            Github
-          </a>
-        </Magnetic>
-        <Magnetic>
-          <a
-            href="https://github.com/yusuf14029"
-            className="inline-flex h-10 items-center rounded-full border border-white/15 bg-white/[0.06] px-4 text-xs uppercase tracking-[0.16em] text-white/82 transition-colors hover:border-acid/70 hover:text-acid"
-          >
-            <AiFillGithub size={18} />
-            Github
-          </a>
-        </Magnetic>
+        <div className="inline-flex gap-4">
+          <Magnetic>
+            <a
+              href="https://github.com/yusuf140298" target="_blank" rel="noopener noreferrer"
+              className="inline-flex h-10 items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 text-xs uppercase tracking-[0.16em] text-white/82 transition-colors hover:border-acid/70 hover:text-acid"
+            >
+              <AiFillGithub size={18} />
+              Github
+            </a>
+          </Magnetic>
+          <Magnetic>
+            <a
+              href="https://linkedin.com/in/yusuf-maulana1402" target="_blank" rel="noopener noreferrer"
+              className="inline-flex h-10 items-center gap-2 rounded-full border border-white/15 bg-white/[0.06] px-4 text-xs tracking-[0.16em] text-white/82 transition-colors hover:border-acid/70 hover:text-acid"
+            >
+              <AiFillLinkedin size={18} />
+              Linked In
+            </a>
+          </Magnetic>
+        </div>
       </nav>
     </motion.header>
   );
