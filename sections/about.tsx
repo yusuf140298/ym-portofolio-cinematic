@@ -10,8 +10,8 @@ export function About() {
       <div className="content-grid">
         <SectionHeading
           kicker="01 / About"
-          title="A studio-minded engineer working at the edge of interface, motion, and atmosphere."
-          copy="The work blends product clarity with cinematic pacing: fast, accessible interfaces that still carry a sense of wonder."
+          title="A fullstack engineer working at the intersection of scalable systems, modern interfaces, and immersive digital experiences."
+          copy="The work blends scalable backend systems with immersive frontend experiences — creating fast, accessible applications with a refined sense of motion and interaction."
         />
 
         <motion.div
@@ -22,14 +22,12 @@ export function About() {
           viewport={{ once: true, margin: "-15%" }}
         >
           <motion.div variants={fadeUp} className="glass rounded-lg p-6 md:p-8">
-            <p className="font-display text-4xl leading-none text-white md:text-6xl">09+</p>
-            <p className="mt-5 text-sm uppercase tracking-[0.2em] text-white/45">Years shaping digital products</p>
+            <p className="font-display text-4xl leading-none text-white md:text-6xl">02+</p>
+            <p className="mt-5 text-sm uppercase tracking-[0.2em] text-white/45">Years building modern web experiences</p>
           </motion.div>
           <motion.div variants={fadeUp} className="glass rounded-lg p-6 md:p-8">
             <p className="text-lg leading-8 text-white/70 md:text-xl md:leading-9">
-              I partner from concept through production, translating ambiguous ideas into durable
-              systems: interaction models, reusable components, design tokens, motion languages,
-              and high-performance WebGL scenes.
+              I build fullstack applications from concept to deployment, transforming ideas into scalable systems through modern architectures, reusable components, API design, and immersive user experiences.
             </p>
             <div className="mt-8 grid gap-3 text-sm uppercase tracking-[0.18em] text-white/48 md:grid-cols-3">
               <span>Strategy</span>

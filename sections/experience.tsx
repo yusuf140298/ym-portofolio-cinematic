@@ -11,7 +11,7 @@ export function Experience() {
       <div className="content-grid">
         <SectionHeading
           kicker="04 / Experience"
-          title="From expressive prototypes to production systems that keep their polish."
+          title="Creating scalable digital products that preserve their responsiveness, clarity, and visual refinement from concept to deployment."
         />
 
         <motion.div

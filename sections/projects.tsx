@@ -17,7 +17,7 @@ export function Projects() {
       <div className="content-grid">
         <SectionHeading
           kicker="03 / Projects"
-          title="Selected work with spatial depth, speed, and strong product intent."
+          title="Selected projects focused on scalable systems, high-performance experiences, and purposeful product engineering."
         />
 
         <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">

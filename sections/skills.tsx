@@ -12,7 +12,7 @@ export function Skills() {
       <div className="content-grid">
         <SectionHeading
           kicker="02 / Skills"
-          title="Systems for launches that need to feel authored, not assembled."
+          title="Fullstack systems shaped with precision, performance, and a strong sense of identity."
           copy="Every layer is designed to move with intention: typography, responsive layout, scroll state, hover physics, and render performance."
         />
 
@@ -31,8 +31,7 @@ export function Skills() {
                   <Icon className="text-acid" size={28} />
                   <h3 className="mt-8 font-display text-2xl text-white">{skill.label}</h3>
                   <p className="mt-4 text-sm leading-6 text-white/52">
-                    Production-ready craft with accessible states, responsive behavior, and motion
-                    that supports the product story.
+                    {skill.description}
                   </p>
                 </SpotlightCard>
               </motion.div>

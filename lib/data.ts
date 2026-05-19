@@ -1,4 +1,11 @@
-import { Code2, Compass, Layers3, Sparkles, Wand2, Workflow } from "lucide-react";
+import {
+  Code2,
+  Database,
+  Layers3,
+  Sparkles,
+  Wand2,
+  Workflow,
+} from "lucide-react";
 
 export const navItems = [
   { label: "About", href: "#about" },
@@ -9,58 +16,106 @@ export const navItems = [
 ];
 
 export const skills = [
-  { label: "Creative Direction", icon: Compass },
-  { label: "Motion Systems", icon: Sparkles },
-  { label: "3D Interfaces", icon: Layers3 },
-  { label: "Frontend Architecture", icon: Code2 },
-  { label: "Interaction Design", icon: Wand2 },
-  { label: "Product Workflows", icon: Workflow },
+  {
+    label: "Frontend Engineering",
+    icon: Sparkles,
+    description:
+      "Crafting performant interfaces with reusable components, scalable state management, and polished motion.",
+  },
+  {
+    label: "Backend Systems",
+    icon: Code2,
+    description:
+      "Designing and implementing scalable backend systems with a focus on performance and maintainability.",
+  },
+  {
+    label: "Creative Development",
+    icon: Wand2,
+    description:
+      "Bringing ideas to life through innovative design and development approaches.",
+  },
+  {
+    label: "Infrastructure",
+    icon: Layers3,
+    description:
+      "Building and maintaining the underlying infrastructure that supports modern web applications.",
+  },
+  {
+    label: "Database Management",
+    icon: Database,
+    description:
+      "Designing and managing databases to ensure data integrity, performance, and scalability.",
+  },
+  {
+    label: "Product Workflows",
+    icon: Workflow,
+    description:
+      "Designing and optimizing product workflows to enhance user experience and operational efficiency.",
+  },
 ];
 
 export const projects = [
   {
-    title: "Nebula Atlas",
-    type: "Spatial Data Platform",
+    title: "Teladan By Bianore",
+    type: "attendance system with face detection and location that can be determined",
     year: "2026",
-    impact: "Reduced geospatial scene load time by 48% while adding cinematic route playback.",
-    tags: ["R3F", "WebGL", "Maps", "Motion"],
+    impact:
+      "Developed a real-time attendance system with face detection and location that can be determined.",
+    tags: ["Next.js", "AI", "Maps", "Realtime"],
   },
   {
-    title: "Pulse Foundry",
-    type: "AI Brand System",
-    year: "2025",
-    impact: "Designed an adaptive identity engine with live previews and exportable motion tokens.",
+    title: "POS System for Small Businesses",
+    type: "A point-of-sale system tailored for small businesses, featuring inventory management and sales analytics.",
+    year: "2026",
+    impact:
+      "Developed a point-of-sale system for small businesses, including inventory management and sales analytics.",
     tags: ["Next.js", "AI", "Design Systems", "Framer"],
   },
   {
-    title: "Signal Room",
-    type: "Executive Analytics",
+    title: "Executive Analytics Dashboard",
+    type: "A dashboard for executives with real-time narratives and focused drilldowns.",
     year: "2025",
-    impact: "Built a command center for operators with real-time narratives and focused drilldowns.",
+    impact:
+      "Developed a dashboard for executives with real-time narratives and focused drilldowns.",
     tags: ["Dashboards", "Realtime", "UX", "Charts"],
+  },
+  {
+    title: "3D Interactive Web Experience",
+    type: "A 3D interactive web experience that immerses users in a virtual world.",
+    year: "2024",
+    impact:
+      "Developed a 3D interactive web experience that immerses users in a virtual world.",
+    tags: ["Three.js", "React Three Fiber", "Drei"],
   },
 ];
 
 export const experience = [
   {
-    role: "Lead Creative Engineer",
-    company: "Independent Studio",
-    date: "2024 - Now",
+    role: "Lead Project Engineer",
+    company: "Bianore Creative",
+    date: "2026 - Now",
     summary:
-      "Building performant cinematic web experiences for founders, studios, and product teams.",
+      "Lead the development of a real-time attendance system with face detection and location that can be determined.",
   },
   {
-    role: "Senior Frontend Engineer",
-    company: "Northstar Labs",
-    date: "2021 - 2024",
+    role: "Fullstack Engineer - Internship",
+    company: "PT. Sentra Usahatama Jaya",
+    date: "2025 - Now",
     summary:
-      "Led interface architecture for data-heavy SaaS products with animation-rich workflows.",
+      "Developed internal systems and dashboards to optimize operations and provide real-time insights for executives.",
+  },
+  {
+    role: "Junior Frontend Engineer",
+    company: "Garuda Dinasty Nusantara",
+    date: "2021 - 2022",
+    summary:
+      "Contributed to the development of an interactive web experience that immerses users in a virtual world.",
   },
   {
     role: "Interactive Developer",
-    company: "Orbit Works",
-    date: "2018 - 2021",
+    company: "Freelance",
+    date: "2020 - 2025",
     summary:
-      "Shipped immersive marketing sites, WebGL experiments, and editorial product launches.",
+      "Service provider for interactive web experiences, including 3D and motion design.",
   },
 ];

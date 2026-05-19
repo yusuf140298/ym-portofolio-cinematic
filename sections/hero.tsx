@@ -16,13 +16,13 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
           <span className="h-1.5 w-1.5 rounded-full bg-acid shadow-glow" />
-          Available for selected launches
+          Don't forget to drink coffee while coding
         </motion.div>
 
         <h1 className="max-w-6xl font-display text-[clamp(4.2rem,14vw,12.4rem)] font-medium leading-[0.78] tracking-[-0.02em] text-white">
-          <SplitText text="Cinematic" delay={0.3} />
+          <SplitText text="Fullstack" delay={0.3} />
           <br />
-          <SplitText text="Interfaces" delay={0.56} className="text-white/72" />
+          <SplitText text="Developer" delay={0.56} className="text-white/72" />
         </h1>
 
         <div className="mt-10 grid gap-8 md:grid-cols-[1fr_0.72fr] md:items-end">
@@ -32,8 +32,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{ duration: 0.95, delay: 1.05, ease: [0.16, 1, 0.3, 1] }}
           >
-            I build immersive digital stages for products, studios, and founders who want the web
-            to feel physical, precise, and alive.
+            I create cinematic fullstack web experiences with modern UI systems, scalable APIs, and interactive motion-driven interfaces.
           </motion.p>
 
           <motion.div
@@ -69,7 +68,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 1.4, ease: [0.16, 1, 0.3, 1] }}
         >
-          {["12 launches", "8 awards", "48% faster", "3D native"].map((stat) => (
+          {["12 launches", "3 awards", "48% faster", "20+ projects"].map((stat) => (
             <div key={stat} className="bg-ink/58 px-5 py-4 backdrop-blur-xl">
               <p className="font-display text-2xl text-white md:text-3xl">{stat}</p>
             </div>
