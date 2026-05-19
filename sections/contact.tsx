@@ -22,7 +22,7 @@ export function Contact() {
           variants={fadeUp}
           className="mt-6 max-w-5xl font-display text-[clamp(3.5rem,11vw,10rem)] leading-[0.86] text-white"
         >
-          Let&apos;s make the launch feel inevitable.
+          Let&apos;s Let’s build something fast, scalable, and intentionally designed.
         </motion.h2>
         <motion.div variants={fadeUp} className="mt-10 flex flex-wrap gap-4">
           <Magnetic>
