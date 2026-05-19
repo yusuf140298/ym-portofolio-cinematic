@@ -48,8 +48,8 @@ export function Contact() {
           variants={fadeUp}
           className="mt-24 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm uppercase tracking-[0.18em] text-white/38 md:flex-row md:items-center md:justify-between"
         >
-          <span>Creative engineering / Motion / WebGL / Fullstack</span>
-          <span>2026</span>
+          <span>Creative engineering / Motion / Fullstack</span>
+          <span>2024</span>
         </motion.footer>
       </motion.div>
     </section>
